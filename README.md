@@ -39,6 +39,9 @@ Note: Git client and Maven are required to setup and run
 
 <h4>Important Note</h4>
 
-1. **OS Compatability** – Windows and Mac 
+1. **OS Compatability** – Developed and tested on **Windows**
 2. **Browser Compatability** - Kindly use Chrome Latest Version (102.0.5005.63)
-3. *JDK* - 17
+3. **JDK** - 17
+4. **Improvements** - 
+Calcaulate the screen resolution after that take the mid point of the screen then hover on the screen to select the Seats
+Improve OS and Brwosers compatability 
