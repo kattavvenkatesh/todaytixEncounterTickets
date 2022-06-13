@@ -1,0 +1,1 @@
+{"uuid":"2902c769-2f9b-4363-9861-9bfda90607e0","name":"com.todayTix.HomeTest.HomePageTest","children":["44742380-4351-47ca-b48d-4c1ac4988836"],"befores":[{"name":"getAvailableSeatApi","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1655049673291,"stop":1655049681401}],"afters":[],"start":1655049673246,"stop":1655049702735}

@@ -1,0 +1,6 @@
+com\todayTix\pages\BookingPage.class
+com\todayTix\pages\YourDetailsPage.class
+com\todayTix\basePage\Page.class
+com\todayTix\pages\BasketPage.class
+com\todayTix\pages\HomePage.class
+com\todayTix\pages\BookingSeatPlanPage.class
