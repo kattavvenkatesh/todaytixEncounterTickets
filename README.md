@@ -41,3 +41,4 @@ Note: Git client and Maven are required to setup and run
 
 1. **OS Compatability** – Windows and Mac 
 2. **Browser Compatability** - Kindly use Chrome Latest Version (102.0.5005.63)
+3. *JDK* - 17
