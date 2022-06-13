@@ -1,15 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 170.218 s <<< FAILURE! - in TestSuite
-bookRestrictedViewEncounterTicketsTest(com.todayTix.applicationTest.BookingEncoreRestrictedTicketTest)  Time elapsed: 71.907 s  <<< FAILURE!
-org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element <span class="seat-info__link-text">...</span> is not clickable at point (914, 159). Other element would receive the click: <div class="encore-spinner  encore-spinner--with-overlay">...</div>
-  (Session info: chrome=102.0.5005.63)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'HYUN025', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\VENKAT~1.KV\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59698}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d9c0990b33c5a251435c14115d6636b
-	at com.todayTix.applicationTest.BookingEncoreRestrictedTicketTest.bookRestrictedViewEncounterTicketsTest(BookingEncoreRestrictedTicketTest.java:61)
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 168.086 s - in TestSuite

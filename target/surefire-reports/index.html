@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-EncounterTicketsAutomation_suite" class="navigator-link">
-              <span class="suite-name border-failed">EncounterTicketsAutomation suite</span>
+              <span class="suite-name border-passed">EncounterTicketsAutomation suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-EncounterTicketsAutomation_suite" class="navigator-link ">
-                    <span>C:\Assignments\todaytixEncounterTickets\src\test\resources\testExecution\testNG.xml</span>
+                    <span>C:\todaytixEncounterTickets\src\test\resources\testExecution\testNG.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-EncounterTicketsAutomation_suite" class="hide-methods failed suite-EncounterTicketsAutomation_suite"> (hide)</a> <!-- hide-methods failed suite-EncounterTicketsAutomation_suite -->
-                      <a href="#" panel-name="suite-EncounterTicketsAutomation_suite" class="show-methods failed suite-EncounterTicketsAutomation_suite"> (show)</a> <!-- show-methods failed suite-EncounterTicketsAutomation_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-EncounterTicketsAutomation_suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-EncounterTicketsAutomation_suite" title="com.todayTix.applicationTest.BookingEncoreRestrictedTicketTest" class="method navigator-link" hash-for-method="bookRestrictedViewEncounterTicketsTest">bookRestrictedViewEncounterTicketsTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-EncounterTicketsAutomation_suite -->
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -119,6 +105,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-EncounterTicketsAutomation_suite" title="com.todayTix.applicationTest.BookEncoreTicketsTest" class="method navigator-link" hash-for-method="bookEncounterTicketsTest">bookEncounterTicketsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EncounterTicketsAutomation_suite" title="com.todayTix.applicationTest.BookingEncoreRestrictedTicketTest" class="method navigator-link" hash-for-method="bookRestrictedViewEncounterTicketsTest">bookRestrictedViewEncounterTicketsTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -143,9 +134,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-EncounterTicketsAutomation_suite" class="panel EncounterTicketsAutomation_suite">
-          <div class="suite-EncounterTicketsAutomation_suite-class-failed">
+          <div class="suite-EncounterTicketsAutomation_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.todayTix.applicationTest.BookingEncoreRestrictedTicketTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -154,37 +145,8 @@
                   <a name="bookRestrictedViewEncounterTicketsTest">
                   </a> <!-- bookRestrictedViewEncounterTicketsTest -->
                   <span class="method-name">bookRestrictedViewEncounterTicketsTest</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;seat-info__link-text&quot;&gt;...&lt;/span&gt; is not clickable at point (914, 159). Other element would receive the click: &lt;div class=&quot;encore-spinner  encore-spinner--with-overlay&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=102.0.5005.63)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;HYUN025&apos;, ip: &apos;192.168.0.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\VENKAT~1.KV\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59698}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d9c0990b33c5a251435c14115d6636b
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.todayTix.basePage.Page.clickontheElement(Page.java:37)
-	at com.todayTix.pages.BasketPage.getImportantSeatInfo(BasketPage.java:23)
-	at com.todayTix.applicationTest.BookingEncoreRestrictedTicketTest.bookRestrictedViewEncounterTicketsTest(BookingEncoreRestrictedTicketTest.java:61)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-EncounterTicketsAutomation_suite-class-failed -->
-          <div class="suite-EncounterTicketsAutomation_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.todayTix.applicationTest.BookingEncoreRestrictedTicketTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="getAvailableSeatApi">
@@ -219,7 +181,7 @@ Session ID: 3d9c0990b33c5a251435c14115d6636b
         </div> <!-- panel EncounterTicketsAutomation_suite -->
         <div panel-name="test-xml-EncounterTicketsAutomation_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Assignments\todaytixEncounterTickets\src\test\resources\testExecution\testNG.xml</span>
+            <span class="header-content">C:\todaytixEncounterTickets\src\test\resources\testExecution\testNG.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -273,19 +235,19 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'bookEncounterTicketsTest')
 data.setCell(0, 2, 'com.todayTix.applicationTest.BookEncoreTicketsTest')
-data.setCell(0, 3, 81142);
+data.setCell(0, 3, 79148);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'bookRestrictedViewEncounterTicketsTest')
 data.setCell(1, 2, 'com.todayTix.applicationTest.BookingEncoreRestrictedTicketTest')
-data.setCell(1, 3, 71891);
+data.setCell(1, 3, 74404);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'getAvailableSeatApi')
 data.setCell(2, 2, 'com.todayTix.applicationTest.BookEncoreTicketsTest')
-data.setCell(2, 3, 7116);
+data.setCell(2, 3, 5189);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'getAvailableSeatApi')
 data.setCell(3, 2, 'com.todayTix.applicationTest.BookingEncoreRestrictedTicketTest')
-data.setCell(3, 3, 3254);
+data.setCell(3, 3, 3267);
 window.suiteTableData['EncounterTicketsAutomation_suite']= { tableData: data, tableDiv: 'times-div-EncounterTicketsAutomation_suite'}
 return data;
 }
@@ -323,44 +285,42 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.todayTix.applicationTest.BookEncoreTicketsTest.getAvailableSeatApi())</span>
-                <span class="method-start">56 ms</span>
+                <span class="method-start">31 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getAvailableSeatApi</span>
-                <span class="method-start">3461 ms</span>
+                <span class="method-start">2958 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.todayTix.applicationTest.BookEncoreTicketsTest.bookEncounterTicketsTest() throws jav...)</span>
-                <span class="method-start">10598 ms</span>
+                <span class="method-start">8161 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">bookEncounterTicketsTest</span>
-                <span class="method-start">10598 ms</span>
+                <span class="method-start">8163 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.todayTix.applicationTest.BookingEncoreRestrictedTicketTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">loadTestData</span>
-                <span class="method-start">91749 ms</span>
+                <span class="method-start">87318 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.todayTix.applicationTest.BookingEncoreRestrictedTicketTest.getAvailableSeatApi())</span>
-                <span class="method-start">91750 ms</span>
+                <span class="method-start">87319 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getAvailableSeatApi</span>
-                <span class="method-start">93964 ms</span>
+                <span class="method-start">89424 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.todayTix.applicationTest.BookingEncoreRestrictedTicketTest.bookRestrictedViewEncount...)</span>
-                <span class="method-start">97221 ms</span>
+                <span class="method-start">92693 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">bookRestrictedViewEncounterTicketsTest</span>
-                <span class="method-start">97223 ms</span>
+                <span class="method-start">92694 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

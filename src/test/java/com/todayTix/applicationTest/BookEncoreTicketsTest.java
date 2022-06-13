@@ -3,6 +3,7 @@ package com.todayTix.applicationTest;
 import com.todayTix.api.GetAvailableTicket;
 import com.todayTix.baseTest.BaseTest;
 import com.todayTix.pages.*;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -33,7 +34,7 @@ public class BookEncoreTicketsTest extends BaseTest {
 
     @BeforeMethod
     public void setUp(Method method) throws MalformedURLException {
-        if(method.getName().equals("getAvailableSeatApi")) {
+        if(!method.getName().equals("getAvailableSeatApi")) {
             launchBrowser();
         }
     }
@@ -57,6 +58,10 @@ public class BookEncoreTicketsTest extends BaseTest {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Thread.sleep(6000);
         yourDetailsPage.addContactDetails((String) properties.get("firstName"),(String) properties.get("lastName"),(String) properties.get("email"),(String) properties.get("phone"),(String) properties.get("postal"));
+    }
+
+    @AfterMethod
+    public void tearDown(){
         tearDown();
     }
 }

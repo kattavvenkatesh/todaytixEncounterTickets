@@ -7,6 +7,7 @@ import com.todayTix.pages.BookingPage;
 import com.todayTix.pages.BookingSeatPlanPage;
 import com.todayTix.pages.HomePage;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -37,7 +38,7 @@ public class BookingEncoreRestrictedTicketTest extends BaseTest {
 
     @BeforeMethod
     public void setUp(Method method) throws MalformedURLException {
-        if(method.getName().equals("getAvailableSeatApi")) {
+        if(!method.getName().equals("getAvailableSeatApi")) {
             launchBrowser();
         }
     }
@@ -57,8 +58,13 @@ public class BookingEncoreRestrictedTicketTest extends BaseTest {
         bookingSeatPlanPage.addSeatsToBasket(row,seat);
         BasketPage basketPage = new BasketPage(driver);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        basketPage.continueToCheckout();
         Thread.sleep(6000);
         Assert.assertEquals(basketPage.getImportantSeatInfo(),row);
+    }
+
+    @AfterMethod
+    public void tearDown(){
         tearDown();
     }
 }
