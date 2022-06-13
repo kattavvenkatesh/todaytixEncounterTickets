@@ -43,5 +43,5 @@ Note: Git client and Maven are required to setup and run
 2. **Browser Compatability** - Kindly use Chrome Latest Version (102.0.5005.63)
 3. **JDK** - 17
 4. **Improvements** - 
--Calcaulate the screen resolution after that take the mid point of the screen then hover on the screen to select the Seats
--Improve OS and Brwosers compatability 
+• Calcaulate the screen resolution after that take the mid point of the screen then hover on the screen to select the Seats
+• Improve OS and Brwosers compatability 
